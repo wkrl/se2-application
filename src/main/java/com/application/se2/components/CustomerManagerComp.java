@@ -30,7 +30,7 @@ public class CustomerManagerComp extends ComponentBase {
 	/**
 	 * Interface of UserManager's logic part.
 	 */
-	public interface LogicIntf extends ComponentIntf.LogicIntf, ComponentIntf.CRUDLogicIntf {
+	public interface LogicIntf extends ComponentIntf.CRUDLogicIntf {
 		/* no additions */
 	}
 
