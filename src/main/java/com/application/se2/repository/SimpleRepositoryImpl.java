@@ -153,6 +153,7 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	 * @param entities
 	 * @return
 	 */
+	@Override
 	public Iterable<E> saveAll( Iterable<E> entities ) {
 		List<E> res = new ArrayList<E>();
 		for( E e : entities ) {

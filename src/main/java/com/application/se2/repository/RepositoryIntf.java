@@ -57,7 +57,8 @@ public interface RepositoryIntf<E extends Entity> { //extends CrudRepository<E,S
 	public Iterable<E> findAllById( Iterable<String> ids );
 
 	/**
-	 * Find method that returns List of entities matching the name-field.
+	 * Find method that returns entity that matches the regular expression. If more than
+	 * one entity match, a random matching entity is returned.
 	 * 
 	 * @param regEx regular expression to match getName() property.
 	 * @return Optional of entity matching name.
@@ -135,7 +136,7 @@ public interface RepositoryIntf<E extends Entity> { //extends CrudRepository<E,S
 	 * 
 	 * @param entities list of entities to be deleted from repository.
 	 */
-	public void deleteAll( Iterable<E> entity );
+	public void deleteAll( Iterable<E> entities );
 
 	/**
 	 * Delete all entities from repository as one atomic transaction. The result
