@@ -3,5 +3,5 @@
 .settings
 target
 data*
-log*
+/log*
 *.tar
