@@ -4,6 +4,7 @@ import static com.application.se2.AppConfigurator.LoggerTopics;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import com.application.se2.components.AppComp;
 import com.application.se2.components.ArticleCatalogComp;
@@ -42,12 +43,15 @@ class AppBuilder implements BuilderIntf {
 
 	private final List<ComponentBase> appComponents;
 
+	private Optional<RepositoryBuilder> repositoryBuilder;
+
 
 	/**
 	 * Private constructor according to the singleton pattern.
 	 */
 	private AppBuilder() {
 		this.appComponents = new ArrayList<ComponentBase>();
+		this.repositoryBuilder = Optional.empty();
 	}
 
 
@@ -61,6 +65,15 @@ class AppBuilder implements BuilderIntf {
 			instance = new AppBuilder();
 		}
 		return instance;
+	}
+
+
+	/**
+	 * Inject reference to RepositoryBuilder.
+	 * @param repositoryBuilder reference to singleton RepositoryBuilder instance.
+	 */
+	public void inject( RepositoryBuilder repositoryBuilder ) {
+		this.repositoryBuilder = Optional.of( repositoryBuilder );
 	}
 
 
@@ -96,19 +109,19 @@ class AppBuilder implements BuilderIntf {
 		appComponents.add( customerManager );
 		appComponents.add( articleCatalog );
 
+		repositoryBuilder.ifPresent( repositoryBuilder -> {
 
-		final RepositoryBuilder repositoryBuilder = RepositoryBuilder.getInstance();
-		final RepositoryRunner repositoryRunner = repositoryBuilder.build();
+			final RepositoryRunner repositoryRunner = repositoryBuilder.build();
 
-		// "wire" customer repository into customerManager.
-		repositoryRunner.<Customer>getRepository( Customer.class ).ifPresent( customerRepository -> {
-			customerManager.inject( customerRepository );
+			// "wire" customer repository into customerManager.
+			repositoryRunner.<Customer>getRepository( Customer.class ).ifPresent( customerRepository -> {
+				customerManager.inject( customerRepository );
+			});
+
+			repositoryRunner.<Article>getRepository( Article.class ).ifPresent( articleRepository -> {
+				articleCatalog.inject( articleRepository );
+			});
 		});
-
-		repositoryRunner.<Article>getRepository( Article.class ).ifPresent( articleRepository -> {
-			articleCatalog.inject( articleRepository );
-		});
-
 
 		final AppRunner appRunner = new AppRunner( this, app );
 		app.inject( appRunner );

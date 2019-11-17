@@ -35,6 +35,7 @@ public class Application {
 	@Autowired
 	private ApplicationContext applicationContext;
 
+
 	/**
 	 * Protected constructor for Spring Boot to create an Application instance.
 	 * Application instances must be created by Spring, never by "new".
@@ -96,10 +97,17 @@ public class Application {
 		);
 
 		/*
+		 * RepositoryBuilder is a Spring @Component that builds repositories.
+		 */
+		final RepositoryBuilder repositoryBuilder = RepositoryBuilder.getInstance();
+
+		/*
 		 * AppBuilder builds applications components and returns a startable Runner instance.
 		 */
-		AppBuilder appBuilder = AppBuilder.getInstance();
-		RunnerIntf appRunner = appBuilder.build();
+		final AppBuilder appBuilder = AppBuilder.getInstance();
+		appBuilder.inject( repositoryBuilder );
+
+		final RunnerIntf appRunner = appBuilder.build();
 
 		/*
 		 * Use (hidden) JavaFX Builder to build the JavaFX GUI also returning a startable FXRunner instance.
@@ -121,7 +129,6 @@ public class Application {
 			onStart -> {
 				logger.log( LoggerTopics.Info, appName + " starting..." );
 
-				final RepositoryBuilder repositoryBuilder = RepositoryBuilder.getInstance();
 				repositoryBuilder.startup();
 
 				/*
@@ -201,7 +208,6 @@ public class Application {
 			logger.log( LoggerTopics.Info, appName + " running..." );
 			waitForExit.await();
 
-			final RepositoryBuilder repositoryBuilder = RepositoryBuilder.getInstance();
 			repositoryBuilder.shutdown();
 
 		} catch( InterruptedException e ) {
