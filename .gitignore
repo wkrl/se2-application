@@ -3,4 +3,4 @@
 .settings
 target
 data*
-addOn*
+*.tar
