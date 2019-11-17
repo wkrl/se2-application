@@ -30,4 +30,20 @@ public interface Logger {
 	 */
 	public void log( final LoggerTopics topic, final String msg, final Object... args );
 
+	/**
+	 * Public log methods for a variety of log levels:
+	 * - debug()
+	 * - info()
+	 * - warn()
+	 * - error()
+	 * - fatal()
+	 * 
+	 * @param message log message.
+	 */
+	public void info( String message );
+
+	public void warn( String message );
+
+	public void error( String message, Exception e );
+
 }

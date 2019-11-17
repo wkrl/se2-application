@@ -36,6 +36,7 @@ class LoggerImpl implements Logger {
 		return instance;
 	}
 
+
 	/**
 	 * Method to log a message.
 	 * 
@@ -104,6 +105,37 @@ class LoggerImpl implements Logger {
 
 			}
 		}
+	}
+
+
+	/**
+	 * Print info message.
+	 * @param message log message
+	 */
+	@Override
+	public void info( String message ) {
+		log( LoggerTopics.Info, message );
+	}
+
+
+	/**
+	 * Print warn message.
+	 * @param message log message
+	 */
+	@Override
+	public void warn( String message ) {
+		log( LoggerTopics.Warn, message );
+	}
+
+
+	/**
+	 * Print error message.
+	 * @param message log message
+	 * @param exception optional exception object to log.
+	 */
+	@Override
+	public void error( String message, Exception exception ) {
+		log( LoggerTopics.Error, message );
 	}
 
 }
