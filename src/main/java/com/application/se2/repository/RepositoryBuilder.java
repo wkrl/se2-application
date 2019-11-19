@@ -112,17 +112,17 @@ public class RepositoryBuilder implements BuilderIntf {
 
 		List<Customer> list = new ArrayList<Customer>();
 
-		Customer c = new Customer( "Dr. Margarethe Böse" )
+		Customer c = new Customer( "Dr. Margarethe Boese" )
 			.addContact( "drmb@yahoo.de" )
 			.addContact( "home: 030 8266-5204" )
 			.addContact( "work: 030 4504-2528" )
 			.addContact( "cell: +49 170 82568462" )
 			.setAddress( "Lindenweg 86, 12167 Berlin-Steglitz" )
 			.setStatus( Customer.Status.SUSP )
-			.addNote( "Zahlt Rechnung verspätet." )
-			.addNote( "Beschwert sich über Mitarbeiter." )
+			.addNote( "Zahlt Rechnung verspaetet." )
+			.addNote( "Beschwert sich ueber Mitarbeiter." )
 			.addNote( "Greift Angestellte verbal an." )
-			.addNote( "Wurde aus dem Geschäft verwiesen. Ein Zutrittsverbot wurde ausgesprochen." );
+			.addNote( "Wurde aus dem Geschaeft verwiesen. Ein Zutrittsverbot wurde ausgesprochen." );
 		list.add( c );
 
 		list.add( new Customer( "Matteo Schwarz" ).setAddress( "Grossweg 4, 79805 Aschaffenburg" ).addContact( "matteo.schwarz@gmail.com" ) );
