@@ -7,6 +7,12 @@ import java.util.List;
 import com.application.se2.misc.IDGenerator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+//import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+//import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
+//import com.application.se2.model.customserializer.CustomerJSONSerializer;
+//import com.application.se2.model.customserializer.CustomerJSONDeserializer;
+
 
 /**
  * Customer is an Entity-class that represents a customer.
@@ -14,6 +20,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @author sgra64
  * 
  */
+
+//@JsonSerialize(using = CustomerJSONSerializer.class)
+//@JsonDeserialize(using = CustomerJSONDeserializer.class)
 
 public class Customer implements Entity {
 	private static final long serialVersionUID = 1L;

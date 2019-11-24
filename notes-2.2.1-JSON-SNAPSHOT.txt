@@ -24,4 +24,13 @@ Build and run the code base and verify that .json-Files have been created
 in the ./data directory.
 
 Inspect those .json-Files.
+
+Update the version to 2.2.2-JSON-SNAPSHOT such that
+  mvn package
+
+will produce in target
+  se2-application-2.2.2-JSON-SNAPSHOT.jar
+
+Check changes of the now fixed code base 2.2.2-JSON into your repository.
+
 +
