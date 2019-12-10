@@ -1,5 +1,10 @@
 package com.application.se2.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import com.application.se2.misc.IDGenerator;
 
 
@@ -9,7 +14,9 @@ import com.application.se2.misc.IDGenerator;
  * @author sgra64
  * 
  */
-public class Article implements Entity {
+@Entity
+@Table(name = "Article")
+public class Article implements com.application.se2.model.Entity {
 	private static final long serialVersionUID = 1L;
 
 	private static final IDGenerator ArticleIdGenerator
@@ -18,10 +25,14 @@ public class Article implements Entity {
 	/*
 	 * Entity Properties.
 	 */
+	@Id
+	@Column(name ="id")
 	private final String id;
 
+	@Column(name ="name")
 	private String name;
 
+	@Column(name ="price")
 	private String price;
 
 
