@@ -59,10 +59,11 @@ public class Customer implements com.application.se2.model.Entity {
 
 
 	/**
-	 * Private default constructor (required by JSON deserialization).
+	 * Default constructor needed by JSON deserialization and Hibernate (private
+	 * is sufficient). Public default constructor needed by Hibernate/JPA access.
+	 * Otherwise Hibernate Error: HHH000142: Bytecode enhancement failed).
 	 */
-	@SuppressWarnings("unused")
-	private Customer() {
+	public Customer() {
 		this( null );
 	}
 
