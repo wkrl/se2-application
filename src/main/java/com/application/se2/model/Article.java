@@ -1,5 +1,6 @@
 package com.application.se2.model;
 
+import com.application.se2.Application;
 import com.application.se2.misc.IDGenerator;
 
 
@@ -9,9 +10,9 @@ import com.application.se2.misc.IDGenerator;
  * @author sgra64
  * 
  */
-public class Article implements Entity {
+public class Article implements Entity {	
 	private static final long serialVersionUID = 1L;
-
+	
 	private static final IDGenerator ArticleIdGenerator
 		= new IDGenerator( "P", IDGenerator.IDTYPE.NUM, 8 );
 

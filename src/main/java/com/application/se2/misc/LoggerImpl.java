@@ -4,8 +4,10 @@ import static com.application.se2.AppConfigurator.LoggerConfig;
 import static com.application.se2.AppConfigurator.LoggerTopics;
 
 import org.apache.log4j.ConsoleAppender;
+import org.apache.log4j.HTMLLayout;
 import org.apache.log4j.Level;
 import org.apache.log4j.SimpleLayout;
+import org.apache.log4j.xml.XMLLayout;
 
 import com.application.se2.model.Entity;
 

@@ -6,7 +6,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import org.apache.log4j.Logger;
 
+import com.application.se2.Application;
 import com.application.se2.model.Entity;
 
 
@@ -19,6 +21,8 @@ import com.application.se2.model.Entity;
  * @param <E> gneric entity type defined as sub-type of EntityIntf.
  */
 class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
+	
+	private static Logger logger = Logger.getLogger( Application.class ); 
 
 	/*
 	 * Internal list that represents the repository.
@@ -140,7 +144,7 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	 */
 	@Override
 	public E save( E entity ) {
-		E e2 = update( entity, true );
+		E e2 = update( entity, true );		
 		return e2;
 	}
 
@@ -195,7 +199,7 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	@Override
 	public void delete( E entity ) {
 		if( entity != null ) {
-			String id = entity.getId();
+			String id = entity.getId();			
 			deleteById( id );
 		}
 	}
@@ -235,8 +239,8 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	 * is an empty repository.
 	 */
 	@Override
-	public void deleteAll() {
-			list.clear();
+	public void deleteAll() {		
+		list.clear();
 	}
 
 
@@ -272,12 +276,12 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 				entity = e1;
 
 			} else {
-				//log.info( "==> updated(" + entity.getId() + ")" );
+				//logger.info( "==> updated(" + entity.getId() + ")" );
 			}
 
 		} else {
 			if( insert ) {
-				//log.info( "==> inserted(" + entity.getId() + ")" );
+				logger.info( "==> inserted(" + entity.getId() + ")" );
 				list.add( entity );
 			}
 		}

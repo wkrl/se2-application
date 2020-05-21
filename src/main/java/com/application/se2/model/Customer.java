@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import com.application.se2.Application;
 import com.application.se2.misc.IDGenerator;
 
 
@@ -15,7 +16,7 @@ import com.application.se2.misc.IDGenerator;
  */
 public class Customer implements Entity {
 	private static final long serialVersionUID = 1L;
-
+	
 	private static final IDGenerator CustomerIdGenerator
 		= new IDGenerator( "K", IDGenerator.IDTYPE.NUM, 6 );
 
@@ -44,7 +45,7 @@ public class Customer implements Entity {
 	 * @param name Customer name.
 	 */
 	public Customer( final String name ) {
-		this( null, name );
+		this( null, name );			
 	}
 
 	/**
@@ -59,7 +60,7 @@ public class Customer implements Entity {
 		this.contacts = new ArrayList<String>();
 		this.notes = new ArrayList<Note>();
 		this.created = new Date();
-		this.status = Status.ACT;
+		this.status = Status.ACT;	
 	}
 
 
@@ -92,8 +93,8 @@ public class Customer implements Entity {
 	 */
 	public Customer setName( final String name ) {
 		this.name = name;
-		// this.name = prettyName( name );
-		return this;
+		// this.name = prettyName( name );		
+		return this;			
 	}
 
 
@@ -113,7 +114,7 @@ public class Customer implements Entity {
 	 * @return self reference.
 	 */
 	public Customer setAddress( final String address ) {
-		this.address = address;
+		this.address = address;		
 		return this;
 	}
 
