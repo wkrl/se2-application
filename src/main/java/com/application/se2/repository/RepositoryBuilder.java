@@ -1,5 +1,8 @@
 package com.application.se2.repository;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,6 +12,9 @@ import com.application.se2.components.BuilderIntf;
 import com.application.se2.model.Article;
 import com.application.se2.model.Customer;
 import com.application.se2.model.Customer.Status;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 
 /**
@@ -111,6 +117,7 @@ public class RepositoryBuilder implements BuilderIntf {
 	private List<Customer> buildCustomerData_phase1() {
 
 		List<Customer> list = new ArrayList<Customer>();
+		ObjectMapper mapper = new ObjectMapper();
 
 		Customer c = new Customer( "Dr. Margarethe Boese" )
 			.addContact( "drmb@yahoo.de" )
@@ -124,6 +131,16 @@ public class RepositoryBuilder implements BuilderIntf {
 			.addNote( "Greift Angestellte verbal an." )
 			.addNote( "Wurde aus dem Geschaeft verwiesen. Ein Zutrittsverbot wurde ausgesprochen." );
 		list.add( c );
+		
+		// Save customer as json string
+		try {
+			String jsonString = mapper.writeValueAsString( c );
+			BufferedWriter jsonWriter = new BufferedWriter(new FileWriter("customer_json.txt"));
+			jsonWriter.write(jsonString);			
+			jsonWriter.close();						
+		} catch (Exception e) {
+			e.printStackTrace();
+		}		
 
 		list.add( new Customer( "Matteo Schwarz" ).setAddress( "Grossweg 4, 79805 Aschaffenburg" ).addContact( "matteo.schwarz@gmail.com" ) );
 		list.add( new Customer( "Paul Neumann" ).setAddress( "Engelbert-Noack-Gasse 3, 16665 Parsberg" ).addContact( "paul.neumann@gmail.com" ) );
@@ -217,10 +234,28 @@ public class RepositoryBuilder implements BuilderIntf {
 	private List<Article> buildArticleData() {
 
 		List<Article> list = new ArrayList<Article>();
+		ObjectMapper mapper = new ObjectMapper();
 
+		Article camera = new Article( "Canon Objektiv EF 50mm f/1.2L USM", "1.549,00 EUR" ); 
 		list.add( new Article( "Canon Objektiv EF 50mm f/1.2L USM", "1.549,00 EUR" ) );
+		
+		// Save article as json and xml string
+		try {			
+			BufferedWriter jsonWriter = new BufferedWriter( new FileWriter("camera_json.txt") );
+			String jsonString = mapper.writeValueAsString( camera );
+			jsonWriter.write(jsonString);			
+			jsonWriter.close();
+			
+			XmlMapper xmlMapper = new XmlMapper();
+		    String xml = xmlMapper.writeValueAsString( camera );		    
+		    BufferedWriter xmlWriter = new BufferedWriter(new FileWriter("camera_xml.txt"));
+		    xmlWriter.write(xml);
+		    xmlWriter.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}			
+		
 		list.add( new Article( "Canon Objektiv EF 50mm f/1.4 USM", "449,00 EUR" ) );
-
 		list.add( new Article( "Canon Objektiv EF 40mm f/2.8 STM", "239,00 EUR" ) );
 		list.add( new Article( "Canon Objektiv EF 50mm f/1.8 STM", "139,00 EUR" ) );
 		list.add( new Article( "Canon Objektiv EF 24-70mm f/4L IS USM", "929,00 EUR" ) );
