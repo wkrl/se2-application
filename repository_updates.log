@@ -40,3 +40,175 @@ INFO -  - shutdown: RepositoryRunner
 2020-06-22 20:46:01.813ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
 INFO - SE-Application exited.
 2020-06-22 20:46:01.814ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 21:32:07.020ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 21:32:07.025ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO - SE-Application running...
+2020-06-22 21:32:07.027ms INFO  Application:SE-Application running...
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 21:32:07.028ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 21:32:07.028ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:05:57.076ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:05:57.078ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-06-22 22:05:57.728ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-06-22 22:05:57.729ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-06-22 22:05:57.730ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-06-22 22:05:57.730ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-06-22 22:05:57.730ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-06-22 22:05:57.734ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-06-22 22:06:02.784ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-06-22 22:06:02.786ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-06-22 22:06:02.787ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-06-22 22:06:02.787ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-06-22 22:06:02.804ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:06:02.805ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:06:02.806ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:11:42.754ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:11:42.755ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO - SE-Application running...
+2020-06-22 22:11:42.756ms INFO  Application:SE-Application running...
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:11:42.756ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:11:42.756ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:18:10.432ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:18:10.434ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-06-22 22:18:11.086ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-06-22 22:18:11.088ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-06-22 22:18:11.088ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-06-22 22:18:11.088ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-06-22 22:18:11.088ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-06-22 22:18:11.095ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-06-22 22:18:51.186ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:18:51.187ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-06-22 22:18:51.626ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-06-22 22:18:51.628ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-06-22 22:18:51.628ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-06-22 22:18:51.629ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-06-22 22:18:51.629ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-06-22 22:18:51.636ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-06-22 22:18:56.377ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-06-22 22:18:56.386ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-06-22 22:18:56.387ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-06-22 22:18:56.388ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-06-22 22:18:56.406ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:18:56.407ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:18:56.407ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:21:06.411ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:21:06.413ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-06-22 22:21:07.024ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-06-22 22:21:07.026ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-06-22 22:21:07.026ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-06-22 22:21:07.026ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-06-22 22:21:07.027ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-06-22 22:21:07.041ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-06-22 22:38:02.590ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:38:02.591ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO - SE-Application running...
+2020-06-22 22:38:02.592ms INFO  Application:SE-Application running...
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:38:02.593ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:38:02.593ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:49:05.027ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:49:05.028ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO - SE-Application running...
+2020-06-22 22:49:05.029ms INFO  Application:SE-Application running...
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:49:05.029ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:49:05.031ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:57:32.137ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:57:32.141ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO - SE-Application running...
+2020-06-22 22:57:32.142ms INFO  Application:SE-Application running...
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:57:32.144ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:57:32.144ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-06-22 22:57:42.307ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 22:57:42.309ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-06-22 22:57:42.857ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-06-22 22:57:42.859ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-06-22 22:57:42.859ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-06-22 22:57:42.863ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-06-22 22:57:42.863ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-06-22 22:57:42.871ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-06-22 22:57:47.154ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-06-22 22:57:47.156ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-06-22 22:57:47.157ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-06-22 22:57:47.157ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-06-22 22:57:47.179ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 22:57:47.181ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 22:57:47.181ms INFO  Application:SE-Application exited.
