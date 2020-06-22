@@ -3,11 +3,14 @@ package com.application.se2.misc;
 import static com.application.se2.AppConfigurator.LoggerConfig;
 import static com.application.se2.AppConfigurator.LoggerTopics;
 
+import java.io.IOException;
+
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.HTMLLayout;
 import org.apache.log4j.Level;
 import org.apache.log4j.SimpleLayout;
 import org.apache.log4j.xml.XMLLayout;
+import org.apache.log4j.RollingFileAppender;
 
 import com.application.se2.model.Entity;
 
@@ -30,10 +33,16 @@ class LoggerImpl implements Logger {
 	    realLogger = org.apache.log4j.Logger.getLogger( clazz.getName() );
 	    
 	    SimpleLayout layout = new SimpleLayout();
-	    ConsoleAppender consoleAppender = new ConsoleAppender( layout );
-	    this.realLogger.addAppender( consoleAppender );
-	    // ALL | DEBUG | INFO | WARN | ERROR | FATAL | OFF:
-	    this.realLogger.setLevel( Level.ALL );
+	    RollingFileAppender consoleAppender;
+		try {
+			consoleAppender = new RollingFileAppender( layout, "repository_updates.log" );
+			this.realLogger.addAppender( consoleAppender );
+		    // ALL | DEBUG | INFO | WARN | ERROR | FATAL | OFF:
+		    this.realLogger.setLevel( Level.ALL );
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	    
 	}
 
 	/**

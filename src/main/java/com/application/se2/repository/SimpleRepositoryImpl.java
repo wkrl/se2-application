@@ -185,7 +185,7 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	 * @id id of entity to be deleted from the repository.
 	 */
 	@Override
-	public void deleteById( String id ) {
+	public void deleteById( String id ) {				
 		E e = findById( list, id );
 		delete( e );
 	}
@@ -198,7 +198,7 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	 */
 	@Override
 	public void delete( E entity ) {
-		if( entity != null ) {
+		if( entity != null ) {			
 			String id = entity.getId();			
 			deleteById( id );
 		}
@@ -214,8 +214,9 @@ class SimpleRepositoryImpl<E extends Entity> implements RepositoryIntf<E> {
 	public void deleteAllById( Iterable<String> ids ) {
 		for( String id : ids ) {
 			E entity = findById( list, id );
-			if( entity != null ) {
+			if( entity != null ) {				
 				list.remove( entity );
+				logger.info( "==> removed(" + entity.getId() + ")" );
 			}
 		}
 	}

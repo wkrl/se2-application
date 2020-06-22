@@ -1,0 +1,42 @@
+INFO - SE-Application starting...
+2020-06-22 20:45:46.918ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-06-22 20:45:46.919ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-06-22 20:45:47.419ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-06-22 20:45:47.422ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-06-22 20:45:47.422ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-06-22 20:45:47.423ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-06-22 20:45:47.423ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-06-22 20:45:47.428ms INFO  Application:SE-Application running...
+INFO - Delete Customer(s): K749244
+2020-06-22 20:45:52.795ms INFO  CustomerManager:Delete Customer(s): K749244
+INFO - ==> removed(K749244)
+2020-06-22 20:45:52.797ms INFO  Application:==> removed(K749244)
+INFO - Delete Customer(s): K526677
+2020-06-22 20:45:55.469ms INFO  CustomerManager:Delete Customer(s): K526677
+INFO - ==> removed(K526677)
+2020-06-22 20:45:55.470ms INFO  Application:==> removed(K526677)
+INFO - Delete Article(s): P66325316
+2020-06-22 20:45:59.891ms INFO  ArticleCatalog:Delete Article(s): P66325316
+INFO - ==> removed(P66325316)
+2020-06-22 20:45:59.892ms INFO  Application:==> removed(P66325316)
+INFO -  - shutdown: Artikelkatalog
+2020-06-22 20:46:01.792ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-06-22 20:46:01.793ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-06-22 20:46:01.793ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-06-22 20:46:01.794ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-06-22 20:46:01.813ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-06-22 20:46:01.813ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-06-22 20:46:01.814ms INFO  Application:SE-Application exited.
