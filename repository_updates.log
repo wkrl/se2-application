@@ -82,3 +82,45 @@ INFO -  - shutdown: RepositoryRunner
 2020-07-01 20:30:39.617ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
 INFO - SE-Application exited.
 2020-07-01 20:30:39.617ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-01 20:37:22.377ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-01 20:37:22.388ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-01 20:37:22.443ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-01 20:37:22.443ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-01 20:37:23.227ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-01 20:37:23.230ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-01 20:37:23.230ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-01 20:37:23.231ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-01 20:37:23.231ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-01 20:37:23.245ms INFO  Application:SE-Application running...
+INFO - Update Customer: K169446
+2020-07-01 20:38:14.822ms INFO  CustomerManager:Update Customer: K169446
+INFO - saved (./data/Customer.json).
+2020-07-01 20:38:14.842ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - Update Article: P99460654
+2020-07-01 20:38:33.560ms INFO  ArticleCatalog:Update Article: P99460654
+INFO - saved (./data/Article.json).
+2020-07-01 20:38:33.571ms INFO  JsonSerializationProviderImpl:saved (./data/Article.json).
+INFO -  - shutdown: Artikelkatalog
+2020-07-01 20:38:39.723ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-01 20:38:39.732ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-01 20:38:39.732ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-01 20:38:39.733ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-01 20:38:39.761ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-01 20:38:39.762ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-01 20:38:39.762ms INFO  Application:SE-Application exited.
