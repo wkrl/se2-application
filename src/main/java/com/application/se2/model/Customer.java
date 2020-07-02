@@ -1,5 +1,7 @@
 package com.application.se2.model;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -8,11 +10,11 @@ import com.application.se2.Application;
 import com.application.se2.misc.IDGenerator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-//import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-//import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-//import com.application.se2.model.customserializer.CustomerJSONSerializer;
-//import com.application.se2.model.customserializer.CustomerJSONDeserializer;
+import com.application.se2.model.customserializer.CustomerJSONSerializer;
+import com.application.se2.model.customserializer.CustomerJSONDeserializer;
 
 
 /**
@@ -22,8 +24,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * 
  */
 
-//@JsonSerialize(using = CustomerJSONSerializer.class)
-//@JsonDeserialize(using = CustomerJSONDeserializer.class)
+@JsonSerialize(using = CustomerJSONSerializer.class)
+@JsonDeserialize(using = CustomerJSONDeserializer.class)
 
 public class Customer implements Entity {
 	private static final long serialVersionUID = 1L;
@@ -45,8 +47,7 @@ public class Customer implements Entity {
 	@JsonIgnore
 	private final List<Note>notes;
 
-	@JsonIgnore
-	private final Date created;
+	private Date created;
 
 	public enum Status { ACT, SUSP, TERM };
 	//
@@ -85,6 +86,20 @@ public class Customer implements Entity {
 		this.status = Status.ACT;	
 	}
 
+	/**
+	 * Private constructor.
+	 * @param id if null is passed as id, an ID will be generated.
+	 * @param name Customer name.
+	 * @param created creation date.
+	 */
+	public Customer(String id, String name, Date created) {
+		this.id = id == null? CustomerIdGenerator.nextId() : id;
+		setName( name );
+		this.address = "";
+		this.contacts = new ArrayList<String>();
+		this.notes = new ArrayList<Note>();
+		this.created = created;
+	}
 
 	/**
 	 * Return Customer id.
@@ -194,7 +209,6 @@ public class Customer implements Entity {
 	 * 
 	 * @return creation date of this Customer instance.
 	 */
-	@JsonIgnore
 	public Date getCreationDate() {
 		return created;
 	}

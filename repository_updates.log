@@ -124,3 +124,393 @@ INFO -  - shutdown: RepositoryRunner
 2020-07-01 20:38:39.762ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
 INFO - SE-Application exited.
 2020-07-01 20:38:39.762ms INFO  Application:SE-Application exited.
+INFO - FileNotFoundException: ./data/Customer.json
+2020-07-02 11:25:28.150ms INFO  JsonSerializationProviderImpl:FileNotFoundException: ./data/Customer.json
+INFO - saved (./data/Customer.json).
+2020-07-02 11:25:28.156ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - saved (./data/Customer.json).
+2020-07-02 11:25:28.275ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - FileNotFoundException: ./data/Article.json
+2020-07-02 11:25:28.281ms INFO  JsonSerializationProviderImpl:FileNotFoundException: ./data/Article.json
+INFO - saved (./data/Article.json).
+2020-07-02 11:25:28.283ms INFO  JsonSerializationProviderImpl:saved (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 11:25:28.317ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 11:25:28.318ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 11:25:29.137ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 11:25:29.139ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 11:25:29.139ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 11:25:29.140ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 11:25:29.140ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 11:25:29.157ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 11:27:19.473ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 11:27:19.484ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 11:27:19.485ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 11:27:19.486ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 11:27:19.511ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 11:27:19.513ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 11:27:19.513ms INFO  Application:SE-Application exited.
+INFO - FileNotFoundException: ./data/Customer.json
+2020-07-02 11:27:26.939ms INFO  JsonSerializationProviderImpl:FileNotFoundException: ./data/Customer.json
+INFO - saved (./data/Customer.json).
+2020-07-02 11:27:26.950ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - saved (./data/Customer.json).
+2020-07-02 11:27:27.044ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 11:27:27.096ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 11:27:27.122ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 11:27:27.122ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 11:27:27.592ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 11:27:27.595ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 11:27:27.596ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 11:27:27.596ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 11:27:27.596ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 11:27:27.602ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 11:41:32.908ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 11:41:32.922ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 11:41:32.922ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 11:41:32.923ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 11:41:32.943ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 11:41:32.948ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 11:41:32.948ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 11:41:38.197ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 11:41:38.204ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 11:41:38.222ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 11:41:38.223ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 11:41:38.793ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 11:41:38.794ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 11:41:38.795ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 11:41:38.799ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 11:41:38.799ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 11:41:38.805ms INFO  Application:SE-Application running...
+INFO - Update Customer: K755169
+2020-07-02 11:42:03.750ms INFO  CustomerManager:Update Customer: K755169
+INFO - saved (./data/Customer.json).
+2020-07-02 11:42:03.761ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 11:42:08.561ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 11:42:08.563ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 11:42:08.563ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 11:42:08.564ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 11:42:08.574ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 11:42:08.575ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 11:42:08.575ms INFO  Application:SE-Application exited.
+INFO - saved (./data/Customer.json).
+2020-07-02 11:42:46.372ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - saved (./data/Customer.json).
+2020-07-02 11:42:46.422ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 11:42:46.447ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 11:42:46.466ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 11:42:46.466ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 11:42:46.904ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 11:42:46.905ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 11:42:46.906ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 11:42:46.906ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 11:42:46.906ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 11:42:46.913ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 11:50:39.207ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 11:50:39.211ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 11:50:39.212ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 11:50:39.212ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 11:50:39.269ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 11:50:39.271ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 11:50:39.272ms INFO  Application:SE-Application exited.
+INFO - FileNotFoundException: ./data/Customer.json
+2020-07-02 11:55:11.464ms INFO  JsonSerializationProviderImpl:FileNotFoundException: ./data/Customer.json
+INFO - saved (./data/Customer.json).
+2020-07-02 11:55:11.469ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - saved (./data/Customer.json).
+2020-07-02 11:55:11.503ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - FileNotFoundException: ./data/Article.json
+2020-07-02 11:55:11.507ms INFO  JsonSerializationProviderImpl:FileNotFoundException: ./data/Article.json
+INFO - saved (./data/Article.json).
+2020-07-02 11:55:11.508ms INFO  JsonSerializationProviderImpl:saved (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 11:55:11.569ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 11:55:11.569ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 11:55:12.191ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 11:55:12.193ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 11:55:12.194ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 11:55:12.196ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 11:55:12.196ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 11:55:12.205ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 11:55:17.747ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 11:55:17.749ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 11:55:17.750ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 11:55:17.750ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 11:55:17.769ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 11:55:17.770ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 11:55:17.770ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 12:06:46.142ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 12:06:46.193ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 12:06:46.214ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 12:06:46.215ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 12:06:46.893ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 12:06:46.895ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 12:06:46.896ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 12:06:46.896ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 12:06:46.896ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 12:06:46.902ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 12:06:51.277ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 12:06:51.277ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 12:06:51.278ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 12:06:51.279ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 12:06:51.295ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 12:06:51.296ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 12:06:51.296ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 12:06:57.274ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 12:06:57.322ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 12:06:57.347ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 12:06:57.348ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 12:06:57.769ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 12:06:57.771ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 12:06:57.771ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 12:06:57.772ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 12:06:57.772ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 12:06:57.782ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 12:07:04.339ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 12:07:04.347ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 12:07:04.348ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 12:07:04.349ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 12:07:04.369ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 12:07:04.370ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 12:07:04.371ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 14:44:30.538ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 14:44:30.603ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 14:44:30.627ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 14:44:30.628ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 14:44:31.192ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 14:44:31.198ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 14:44:31.199ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 14:44:31.200ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 14:44:31.200ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 14:44:31.208ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 14:45:07.217ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 14:45:07.218ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 14:45:07.219ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 14:45:07.219ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 14:45:07.233ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 14:45:07.234ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 14:45:07.234ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 14:45:13.785ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 14:45:13.836ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 14:45:13.856ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 14:45:13.857ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 14:45:14.281ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 14:45:14.282ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 14:45:14.283ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 14:45:14.283ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 14:45:14.284ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 14:45:14.291ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 14:46:57.179ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 14:46:57.197ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 14:46:57.198ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 14:46:57.199ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 14:46:57.233ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 14:46:57.241ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 14:46:57.241ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 14:47:06.931ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 14:47:06.994ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 14:47:07.013ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 14:47:07.014ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 14:47:07.431ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 14:47:07.433ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 14:47:07.439ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 14:47:07.439ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 14:47:07.439ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 14:47:07.444ms INFO  Application:SE-Application running...
+INFO - Update Customer: K908623
+2020-07-02 14:48:17.370ms INFO  CustomerManager:Update Customer: K908623
+INFO - saved (./data/Customer.json).
+2020-07-02 14:48:17.383ms INFO  JsonSerializationProviderImpl:saved (./data/Customer.json).
+INFO - Update Article: P15615180
+2020-07-02 14:48:28.168ms INFO  ArticleCatalog:Update Article: P15615180
+INFO - saved (./data/Article.json).
+2020-07-02 14:48:28.186ms INFO  JsonSerializationProviderImpl:saved (./data/Article.json).
+INFO -  - shutdown: Artikelkatalog
+2020-07-02 14:48:32.689ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-02 14:48:32.690ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-02 14:48:32.690ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-02 14:48:32.690ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-02 14:48:32.699ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO -  - shutdown: RepositoryRunner
+2020-07-02 14:48:32.700ms INFO  RepositoryBuilder: - shutdown: RepositoryRunner
+INFO - SE-Application exited.
+2020-07-02 14:48:32.700ms INFO  Application:SE-Application exited.
+INFO - loaded (./data/Customer.json).
+2020-07-02 14:49:00.892ms INFO  JsonSerializationProviderImpl:loaded (./data/Customer.json).
+INFO - loaded (./data/Article.json).
+2020-07-02 14:49:00.944ms INFO  JsonSerializationProviderImpl:loaded (./data/Article.json).
+INFO - SE-Application starting...
+2020-07-02 14:49:00.964ms INFO  Application:SE-Application starting...
+INFO -  + startup: RepositoryRunner
+2020-07-02 14:49:00.965ms INFO  RepositoryBuilder: + startup: RepositoryRunner
+INFO -  + startup: JavaFX-GUI.
+2020-07-02 14:49:01.449ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-02 14:49:01.451ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-02 14:49:01.451ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-02 14:49:01.451ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-02 14:49:01.452ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-02 14:49:01.457ms INFO  Application:SE-Application running...
