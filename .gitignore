@@ -6,3 +6,4 @@ data*
 /log*
 *.tar
 .DS_Store
+playbook.txt
