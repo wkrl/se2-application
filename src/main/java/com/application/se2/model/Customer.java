@@ -46,7 +46,7 @@ public class Customer implements com.application.se2.model.Entity {
 	@Convert(converter = com.application.se2.model.customserializer.StringListConverter.class)		// map List<String> to single, ';'-separated String
 	private final List<String>contacts;
 
-	@Transient
+	//@Transient
 	private final List<Note>notes;
 
 	//@Transient
