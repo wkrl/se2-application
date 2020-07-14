@@ -194,3 +194,577 @@ INFO -  - shutdown: JavaFX-GUI.
 2020-07-10 20:59:22.056ms INFO  Application: - shutdown: JavaFX-GUI.
 INFO - SE-Application exited.
 2020-07-10 20:59:22.058ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 11:26:16.292ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 11:26:17.430ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 11:26:17.433ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 11:26:17.433ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 11:26:17.433ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 11:26:17.434ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 11:26:17.440ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 11:31:31.244ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 11:31:31.250ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 11:31:31.251ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 11:31:31.251ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 11:31:31.464ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 11:31:31.474ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 11:43:51.143ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 11:43:52.064ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 11:43:52.065ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 11:43:52.065ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 11:43:52.065ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 11:43:52.065ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 11:43:52.072ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 11:45:22.293ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 11:45:23.069ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 11:45:23.071ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 11:45:23.071ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 11:45:23.071ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 11:45:23.072ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 11:45:23.079ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 12:31:22.197ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:31:23.102ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:31:23.103ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:31:23.104ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:31:23.104ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:31:23.105ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:31:23.109ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:32:19.245ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:32:19.247ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:32:19.248ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:32:19.248ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:32:19.635ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:32:19.638ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:33:20.394ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:33:21.138ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:33:21.139ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:33:21.139ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:33:21.140ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:33:21.140ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:33:21.148ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:33:35.684ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:33:35.687ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:33:35.688ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:33:35.688ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:33:35.812ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:33:35.827ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:33:53.154ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:33:53.842ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:33:53.843ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:33:53.843ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:33:53.843ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:33:53.844ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:33:53.848ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:35:04.834ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:35:04.837ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:35:04.838ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:35:04.838ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:35:05.064ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:35:05.066ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:35:16.489ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:35:17.206ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:35:17.207ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:35:17.207ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:35:17.209ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:35:17.209ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:35:17.213ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:35:50.434ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:35:50.443ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:35:50.463ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:35:50.464ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:35:50.805ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:35:50.806ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:36:20.739ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:36:21.485ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:36:21.487ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:36:21.487ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:36:21.487ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:36:21.487ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:36:21.493ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:36:56.920ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:36:56.921ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:36:56.922ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:36:56.922ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:36:57.276ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:36:57.280ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:48:02.814ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:48:03.797ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:48:03.799ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:48:03.799ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:48:03.799ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:48:03.799ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:48:03.810ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 12:49:48.648ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:49:49.360ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:49:49.361ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:49:49.362ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:49:49.362ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:49:49.362ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:49:49.368ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 12:51:59.594ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:52:00.700ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:52:00.701ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:52:00.701ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:52:00.701ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:52:00.701ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:52:00.706ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:53:23.513ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:53:23.515ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:53:23.517ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:53:23.517ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:53:23.901ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:53:23.904ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:53:36.774ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:53:37.495ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:53:37.496ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:53:37.497ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:53:37.497ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:53:37.497ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:53:37.501ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 12:54:39.410ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 12:54:39.412ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 12:54:39.412ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 12:54:39.413ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 12:54:39.509ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 12:54:39.511ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 12:55:00.408ms INFO  Application:SE-Application starting...
+INFO - SE-Application starting...
+2020-07-11 12:59:15.051ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 12:59:16.067ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 12:59:16.068ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 12:59:16.068ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 12:59:16.069ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 12:59:16.069ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 12:59:16.075ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 13:00:08.066ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 13:00:08.068ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 13:00:08.069ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 13:00:08.070ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 13:00:08.551ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 13:00:08.552ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 13:00:54.970ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:00:55.761ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:00:55.762ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:00:55.762ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:00:55.763ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:00:55.763ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:00:55.769ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 13:02:29.922ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:02:30.764ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:02:30.766ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:02:30.767ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:02:30.768ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:02:30.769ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:02:30.772ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 13:03:12.701ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 13:03:12.719ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 13:03:12.720ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 13:03:12.721ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 13:03:12.975ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 13:03:12.984ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 13:03:46.513ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:03:47.360ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:03:47.361ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:03:47.361ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:03:47.362ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:03:47.362ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:03:47.372ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 13:03:52.064ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 13:03:52.065ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 13:03:52.066ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 13:03:52.067ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 13:03:52.309ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 13:03:52.311ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 13:07:23.558ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:07:24.533ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:07:24.534ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:07:24.534ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:07:24.535ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:07:24.535ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:07:24.542ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 13:07:30.574ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 13:07:30.583ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 13:07:30.583ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 13:07:30.584ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 13:07:30.899ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 13:07:30.904ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 13:07:57.130ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:07:57.848ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:07:57.850ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:07:57.850ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:07:57.851ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:07:57.851ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:07:57.856ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-11 13:08:09.824ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-11 13:08:09.833ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-11 13:08:09.838ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-11 13:08:09.841ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-11 13:08:10.112ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-11 13:08:10.114ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-11 13:08:33.405ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:08:34.183ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:08:34.184ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:08:34.184ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:08:34.184ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:08:34.184ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:08:34.188ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 13:10:14.374ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:10:15.262ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:10:15.264ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:10:15.265ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:10:15.265ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:10:15.265ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:10:15.272ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 13:10:48.960ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-11 13:10:49.744ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-11 13:10:49.745ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-11 13:10:49.746ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-11 13:10:49.746ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-11 13:10:49.746ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-11 13:10:49.750ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-11 13:11:29.478ms INFO  Application:SE-Application starting...
+INFO - SE-Application starting...
+2020-07-11 13:11:50.608ms INFO  Application:SE-Application starting...
+INFO - SE-Application starting...
+2020-07-14 15:58:56.159ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-14 15:58:57.077ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-14 15:58:57.078ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-14 15:58:57.078ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-14 15:58:57.080ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-14 15:58:57.080ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-14 15:58:57.084ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-14 15:59:14.753ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-14 15:59:14.773ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-14 15:59:14.774ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-14 15:59:14.775ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-14 15:59:15.099ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-14 15:59:15.102ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-14 16:05:58.872ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-14 16:05:59.717ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-14 16:05:59.719ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-14 16:05:59.720ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-14 16:05:59.720ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-14 16:05:59.720ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-14 16:05:59.729ms INFO  Application:SE-Application running...
+INFO - SE-Application starting...
+2020-07-14 16:52:11.090ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-14 16:52:11.902ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-14 16:52:11.904ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-14 16:52:11.904ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-14 16:52:11.905ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-14 16:52:11.905ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-14 16:52:11.910ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-14 16:52:17.040ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-14 16:52:17.042ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-14 16:52:17.042ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-14 16:52:17.043ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-14 16:52:17.257ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-14 16:52:17.275ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-14 16:52:44.960ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-14 16:52:46.028ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-14 16:52:46.030ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-14 16:52:46.030ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-14 16:52:46.031ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-14 16:52:46.031ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-14 16:52:46.035ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-14 16:55:46.597ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-14 16:55:46.602ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-14 16:55:46.602ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-14 16:55:46.603ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-14 16:55:46.979ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-14 16:55:46.982ms INFO  Application:SE-Application exited.
+INFO - SE-Application starting...
+2020-07-14 16:59:53.822ms INFO  Application:SE-Application starting...
+INFO -  + startup: JavaFX-GUI.
+2020-07-14 16:59:54.786ms INFO  Application: + startup: JavaFX-GUI.
+INFO -  + startup: SE-Application
+2020-07-14 16:59:54.788ms INFO  AppRunner: + startup: SE-Application
+INFO -  + startup: Calculator24
+2020-07-14 16:59:54.788ms INFO  CalculatorLogic: + startup: Calculator24
+INFO -  + startup: Kunden
+2020-07-14 16:59:54.788ms INFO  CustomerManager: + startup: Kunden
+INFO -  + startup: Artikelkatalog
+2020-07-14 16:59:54.788ms INFO  ArticleCatalog: + startup: Artikelkatalog
+INFO - SE-Application running...
+2020-07-14 16:59:54.793ms INFO  Application:SE-Application running...
+INFO -  - shutdown: Artikelkatalog
+2020-07-14 17:08:37.493ms INFO  ArticleCatalog: - shutdown: Artikelkatalog
+INFO -  - shutdown: Kunden
+2020-07-14 17:08:37.505ms INFO  CustomerManager: - shutdown: Kunden
+INFO -  - shutdown: Calculator24
+2020-07-14 17:08:37.506ms INFO  CalculatorLogic: - shutdown: Calculator24
+INFO -  - shutdown: SE-Application
+2020-07-14 17:08:37.507ms INFO  AppRunner: - shutdown: SE-Application
+INFO -  - shutdown: JavaFX-GUI.
+2020-07-14 17:08:37.699ms INFO  Application: - shutdown: JavaFX-GUI.
+INFO - SE-Application exited.
+2020-07-14 17:08:37.703ms INFO  Application:SE-Application exited.

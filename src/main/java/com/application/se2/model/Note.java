@@ -4,6 +4,15 @@ import java.io.Serializable;
 import java.text.ParseException;
 import java.util.Date;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
 import com.application.se2.misc.EntityProperty;
 
 
@@ -16,23 +25,37 @@ import com.application.se2.misc.EntityProperty;
  * 
  * @author sgra64
  */
+@Entity
+@Table(name = "Notes")
 public class Note implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private static final String FieldSeparator = ";; ";
 	private static long lastTimeStamp = 0L;
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name ="id")
+	private long id; // unique, non‐null long.
 
+	@Column(name ="time")
 	private Date timeStamp = null;		// TimeStamp part of Note.
 
+	@Column(name ="text")
 	private String noteText = null;		// Text part of Note.
 
+	@ManyToOne(
+		fetch = FetchType.LAZY
+	)
+	private Customer customer;
+	
 
 	/**
 	 * Default constructor needed by JSON deserialization and Hibernate (private
 	 * is sufficient). Public default constructor needed by Hibernate/JPA access.
 	 * Otherwise Hibernate Error: HHH000142: Bytecode enhancement failed).
 	 */
-	public Note() {
+	private Note() {
 		this.timeStamp = new Date();
 		this.noteText = "";
 	}
@@ -124,6 +147,10 @@ public class Note implements Serializable {
 			lastTimeStamp = nowL;
 		}
 		return now;
+	}
+
+	public void setCustomer(Customer customer2) {
+		this.customer = customer2;
 	}
 
 }

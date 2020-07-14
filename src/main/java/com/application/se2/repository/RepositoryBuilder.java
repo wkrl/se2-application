@@ -82,16 +82,15 @@ public class RepositoryBuilder implements BuilderIntf {
 	 * @return runner instance.
 	 */
 	@Override
-	public RepositoryRunner build() {
-
+	public RepositoryRunner build() {				
 		if( customerRepository.count() == 0 ) {
-			customerRepository.saveAll( buildCustomerData_phase1() );
-			//buildCustomerData_phase2( customerRepository );
+//			customerRepository.saveAll( buildCustomerData_phase1() );
+			buildCustomerData_phase2(customerRepository);
 		}
 
-		if( articleRepository.count() == 0 ) {
+		if( articleRepository.count() == 0 ) {		
 			articleRepository.saveAll( buildArticleData() );
-		}
+		}		
 
 		return repositoryRunner.get();
 	}
@@ -191,43 +190,49 @@ public class RepositoryBuilder implements BuilderIntf {
 		return list;
 	}
 
-
-	private void buildCustomerData_phase2( RepositoryIntf<Customer> customerRepository ) {
-
-		for( Customer c2 : customerRepository.findByName( ".* S.*", Long.MAX_VALUE ) ) {
+	private void buildCustomerData_phase2( CustomerRepositoryIntf customerRepository ) {
+		for( Customer c2 : customerRepository.findByName( ".* S.*"/*, Long.MAX_VALUE */) ) {
 			System.out.println( " --found--> " + c2.getName() );
 			c2.setStatus( Status.TERM );
 			c2.addNote( "Kunde wurde terminiert." );
+			customerRepository.save( c2 );
+		}
+		
+		List<Customer> customers = customerRepository.findByName( "Matteo" );
+		for(Customer c2 : customers) {
+			c2.addContact( "matteo@yahoo.com" ).addContact( "max88@gmail.com" ).addContact( "030 3849-5039" ).addContact( "+49 170 9369224" )
+			.addNote( "Kunde moechte Rechnung per Post erhalten." )
+			.addNote( "Kunde hat Rechnung bezahlt." );
+			customerRepository.save( c2 );
 		}
 
-		customerRepository.findByName( "Matteo" ).ifPresent( c2 -> {
-			c2.addContact( "matteo@yahoo.com" ).addContact( "max88@gmail.com" ).addContact( "030 3849-5039" ).addContact( "+49 170 9369224" )
-				.addNote( "Kunde moechte Rechnung per Post erhalten." )
-				.addNote( "Kunde hat Rechnung bezahlt." );
-		});
-
-		customerRepository.findByName( "Tom Wolf" ).ifPresent( c2 -> {
+		customers = customerRepository.findByName( "Tom Wolf" );
+		for(Customer c2 : customers) {
 			c2.addContact( "majortom@gmail.com" )
-				.addContact( "+491582341346" );
-		});
+			.addContact( "+491582341346" );
+			customerRepository.save( c2 );
+		}
 
-		customerRepository.findByName( "Emilia Hartmann" ).ifPresent( c2 -> {
+		customers = customerRepository.findByName( "Emilia Hartmann" );
+		for(Customer c2 : customers) {
 			c2.addContact( "majortom@gmail.com" )
-				.addContact( "+491582341346" )
-				.setStatus( Customer.Status.SUSP )
-				.addNote( "Kunde hat Rechnung nicht bezahlt." )
-				.addNote( "Erste Mahnung." )
-				.addNote( "Zweite Mahnung." );
-		});
+			.addContact( "+491582341346" )
+			.setStatus( Customer.Status.SUSP )
+			.addNote( "Kunde hat Rechnung nicht bezahlt." )
+			.addNote( "Erste Mahnung." )
+			.addNote( "Zweite Mahnung." );
+			customerRepository.save( c2 );
+		}
 
-		customerRepository.findByName( "Emily Meier" ).ifPresent( c2 -> {
+
+		customers = customerRepository.findByName( "Emily Meier" );
+		for(Customer c2 : customers) {
 			c2.addContact( "eme@yahoo.com" )
-				.addContact( "meyer244@gmail.com" )
-				.addContact( "+49170482395" )
-				.setStatus( Customer.Status.SUSP );
-		});
-
-		customerRepository.saveAll( customerRepository.findAll() );
+			.addContact( "meyer244@gmail.com" )
+			.addContact( "+49170482395" )
+			.setStatus( Customer.Status.SUSP );
+			customerRepository.save( c2 );
+		}
 	}
 
 

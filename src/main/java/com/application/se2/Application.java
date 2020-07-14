@@ -69,7 +69,7 @@ public class Application {
 	 * Application instances must be created by Spring, never by "new".
 	 * @param args arguments passed from main()
 	 */
-	Application( String[] args ) {
+	Application( String[] args ) {		
 		System.out.println( "2. Hello SpringApplication, Constructor called." );
 	}
 

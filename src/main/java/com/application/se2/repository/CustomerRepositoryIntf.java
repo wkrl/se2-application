@@ -1,5 +1,6 @@
 package com.application.se2.repository;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
@@ -66,4 +67,10 @@ public interface CustomerRepositoryIntf extends CrudRepository<Customer, String>
 	 *    <S extends T> Iterable<S> save( Iterable<S> entities );
 	 * }
 	 */
+	
+	public List<Customer> findByName( String name );
+	
+	public List<Customer> findByNameStartingWith( String match );
+	
+	public List<Customer> findByNameContaining( String match );
 }
